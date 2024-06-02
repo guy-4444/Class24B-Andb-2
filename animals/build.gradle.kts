@@ -33,6 +33,9 @@ android {
 
 dependencies {
 
+    // old: implementation project(path: ':common')
+    implementation(project(":common"))
+
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

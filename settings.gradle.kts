@@ -20,5 +20,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Class24B-Andb-2"
-include(":app")
+include(":cars")
 include(":animals")
+include(":common")
+include(":brands")
